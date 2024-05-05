@@ -138,12 +138,6 @@ app.post("/delete", function (req, res) {
 
 });
 
-// app.post("/work", function (res, req) {
-//     let items = req.body.addItem;
-//     workItems.push(items);
-//     res.redirect("/");
-// });
-
 app.get("/about", function (req, res) {
     res.render("about");
 })
